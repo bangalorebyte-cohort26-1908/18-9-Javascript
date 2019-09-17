@@ -55,10 +55,14 @@ Javascript is a frontend programming language. Mostly used for interactive aspec
 
 ### Some info about the basic usage of Javascript
 
-Javascript can be inserted inline in an HTML file but most recomended/industry standards would be to have a seperate .js file and include it in the HTML file (but towards the end of HTML file.
+Javascript can be inserted inline in an HTML file 
+
+[EXAMPLE HTML](https://github.com/bangalorebyte-cohort26-1908/18-9-Javascript/blob/suvarna_intro_to_javascript/HTML_Files/LearnJS.html)
+
+but most recomended/industry standards would be to have a seperate .js file and include it in the HTML file (but towards the end of HTML file.
 
 [EXAMPLE Javascript](https://github.com/bangalorebyte-cohort26-1908/18-9-Javascript/blob/suvarna_intro_to_javascript/JS_Files/SampleJS.js)
-[EXAMPLE HTML](https://github.com/bangalorebyte-cohort26-1908/18-9-Javascript/blob/suvarna_intro_to_javascript/HTML_Files/LearnJS.html)
+
 
 * DEBUG/Logging :
 
@@ -362,8 +366,8 @@ console.log(todos);
 
 
 
-    Ternary operator :
-    ------------------
+#### Ternary operator :
+#### ------------------
 
     const x = 10;
 
@@ -372,8 +376,8 @@ console.log(todos);
     console.log(color);
 
 
-    switch case :
-    -------------
+#### switch case :
+#### -------------
 
     switch(color) {
         case 'red':
@@ -389,8 +393,8 @@ console.log(todos);
 
 
 
-    #### Functions
-    #### =========
+#### Functions
+#### =========
 
 
     function addNums(num1 = 1, num2 = 1) {

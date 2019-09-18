@@ -10,20 +10,19 @@
 
 
 **Highlevel** 
-Unlike C / C++ which are low level languages which depend on/interact with the operating system, 
-Javascript has a lot of abstraction. We don't have to deal with any memory management etc...
+* Unlike C / C++ which are low level languages which depend on/interact with the operating system, Javascript has a lot of abstraction. We don't have to deal with any memory management etc...
 
 **Interpreted** 
-Javascript can be run directly without having to compile using a compiler unlike Java which uses a compiler to compile its code before it could be run. Javascript is a scripting language and it is interpreted.
+* Javascript can be run directly without having to compile using a compiler unlike Java which uses a compiler to compile its code before it could be run. Javascript is a scripting language and it is interpreted.
 
 **ECMAScript** 
-It was created to standardize JavaScript, so as to foster multiple independent implementations. Current standard is ES6 (ECMAScript 6 -2015)
+* It was created to standardize JavaScript, so as to foster multiple independent implementations. Current standard is ES6 (ECMAScript 6 -2015)
 
 **Multi-paradigm** 
-Meaning, Javascript can be written in many ways.. example: Object-oriented/function codes and not many strict rules to follow while writing a Javascript code like having to follow a certain way.
+* Meaning, Javascript can be written in many ways.. example: Object-oriented/function codes and not many strict rules to follow while writing a Javascript code like having to follow a certain way.
 
 **Mainly used in client/browser**
-Javascript is a frontend programming language. Mostly used for interactive aspects like form validations, showing alerts to user...etc
+* Javascript is a frontend programming language. Mostly used for interactive aspects like form validations, showing alerts to user...etc
 
 
 
@@ -44,18 +43,18 @@ Javascript is a frontend programming language. Mostly used for interactive aspec
 * [ ] Object Literals
 * [ ] Methods for Strings, Arrays, Objects, etc
 * [ ] Loops
-* Conditionals
-* Functions
-* OOP (Prototypes & Classes)
-* DOM Selection
-* DOM Manipulation
-* Events
-* Basic Form Validations
+* [ ] Conditionals
+* [ ] Functions
+* [ ] OOP (Prototypes & Classes)
+* [ ] DOM Selection
+* [ ] DOM Manipulation
+* [ ] Events
+* [ ] Basic Form Validations
 
 
-### Some info about the basic usage of Javascript
+**Some info about the basic usage of Javascript**
 
-Javascript can be inserted inline in an HTML file 
+* Javascript can be inserted inline in an HTML file 
 
 [EXAMPLE HTML](https://github.com/bangalorebyte-cohort26-1908/18-9-Javascript/blob/suvarna_intro_to_javascript/HTML_Files/LearnJS.html)
 
@@ -70,13 +69,13 @@ console.log("")
 console.error("")
 console.warning("")
 ```
-    are some of the functions that can be used for debug purposes.
+are some of the functions that can be used for debug purposes.
 
 
 * Commenting in Javascript :
+```javascript
 
 <script type="text/javascript">
-<!--
 // This is a single line JavaScript comment
 
 document.write("I have comments in my JavaScript code!");
@@ -92,19 +91,20 @@ document.write("I have multi-line comments!");
 document.write("You can't see this!");
 document.write("You can't see this!");
 document.write("You can't see this!");*/
--->
 </script>
+
+```
 
 
 ### Variables 
 ### =========
 
-'var' was the earlier way to declare a variable, but not any more.
+* 'var' was the earlier way to declare a variable, but not any more.
 
-'let' / 'const' are the new ways. Introduced ES6 or ES2015 onwards.
+* 'let' / 'const' are the new ways. Introduced ES6 or ES2015 onwards.
 
-Using 'let', you can re-assign the value.
-USing 'const', you cannot re-assign value.
+* Using 'let', you can re-assign the value.
+Using 'const', you cannot re-assign value.
 Hence it can be decided when to use a 'const' and when not to. 
 'const' have to be assigned a value while declaring. I cannot be left un-assigned. 
 
@@ -126,27 +126,6 @@ console.log(hello2)
 ```
 
 
-Example ::
-----------
-* How to add js script to your HTML page ?
-
-
-
-<script type="text/javascript">
-<!--
-
-let x=20;
-x=21; //This is allowed
-
-const y=30;
-//y=35; //This is not allowed. (You get an Error, if you try uncommenting this line)
-
-console.log(x, y);
-
--->
-</script>
-
-
 ### Primitive Datatypes in Javascript
 
 * String
@@ -156,10 +135,9 @@ console.log(x, y);
 * undefined
 * Symbol (Added ES6 onwards)
 
-
 Example ::
 ----------
-
+```javascript
 const name = 'Sam';
 const age = 20;
 const score = 4.5;
@@ -175,7 +153,7 @@ console.log(typeof isCool); //Output :: boolean
 console.log(typeof x); //Output :: object
 console.log(typeof y); //Output :: undefined
 console.log(typeof z); //Output :: undefined
-
+```
 
 #### Datatype : string
 #### =================

@@ -158,6 +158,8 @@ console.log(typeof z); //Output :: undefined
 #### Datatype : string
 #### =================
 
+
+```javascript
 const name = 'Sam';
 const age = 20;
 
@@ -167,8 +169,9 @@ console.log('This is ' + name + ' and he is ' + age + ' years old');
 // Template string
 console.log(``);
 console.log(`This is ${name} and he is ${age} years old`);
+```
 
-Some of the common string properties & methods/functions :
+**Some of the common string properties & methods/functions :**
 
 * length ==> name.length  // Output :: 3
 * toUpperCase ==> name.toUpperCase()  // Output :: SAM
@@ -181,8 +184,9 @@ Some of the common string properties & methods/functions :
 #### Datatype : Array
 #### ================
 
-Arrays - are variables that can hold multiple values. It is not a primitive datatype, but an object datatype. Hence the declaration uses 'new Array()' 
+**Arrays** - are variables that can hold multiple values. It is not a primitive datatype, but an object datatype. Hence the declaration uses 'new Array()' 
 
+```javascript
 const cities = new Array("Bangalore", "Delhi", "Mumbai", 4, 5.5, false, null, undefined) // Javascript gives freedom for Arrays to include any datatypes as their elements.
 
 
@@ -209,7 +213,7 @@ console.log(Array.isArray('hello'));   // Output :: false
 
 
 fruitsArray.indexOf("Banana");   // Output :: 2
-
+```
 
 
 #### Object literals
@@ -219,6 +223,8 @@ Object literals are more like key-value pairs
 
 Example
 -------
+
+```javascript
 
 const person {
     firstname: 'Jackie'
@@ -266,11 +272,14 @@ const todos{
 const todoJSON = JSON.stringify(todos);
 
 console.log(todos);
+```
 
 
 
 #### Loops : for
 #### ===========
+
+```javascript
 
     for (let i=0, i<10, i++) {
         console.log(i);
@@ -286,32 +295,33 @@ console.log(todos);
         console.log(todo.id);
         console.log(todo.text);
     })
-
+```
 
 #### Loops : while
 #### =============
-
+```javascript
     let i = 0;
     while (i<10){
         console.log(i);
     }
     i++;
 
+```
 
 #### Maps
 #### =====
 
+```javascript
     const todoMapObject = todos.map(function(todo) {
         console.log(todo.text);
     })
 
     todoMapObject - will store a new list/Array of todos' text.
-
-
+```
 
 #### Filters
 #### =======
-
+```javascript
     const todoOnlyCompleted = todos.filter(function(todo) {
         return todo.isCompleted === true;
     }).map(function(todo)){
@@ -319,13 +329,13 @@ console.log(todos);
     }
 
     // Output :: (2) ["Assignment to complete", "Add files to GITHUB"]
-
+```
 
 
 #### Conditional Statements
 #### ======================
 
-
+```javascript
     const x = 10;
 
     if (x == 10){
@@ -363,22 +373,23 @@ console.log(todos);
     if (x > 10 && y > 30){
         console.log('x is greater than 10  AND  y is greater than 30') 
     }
-
+```
 
 
 #### Ternary operator :
 #### ------------------
 
+```javascript
     const x = 10;
 
     const color = x > 10 ? 'red' : 'blue';
 
     console.log(color);
-
+```
 
 #### switch case :
 #### -------------
-
+```javascript
     switch(color) {
         case 'red':
             console.log('color is red');
@@ -390,13 +401,11 @@ console.log(todos);
             console.log('color is neither red nor blue');
             break;
     }
-
-
+```
 
 #### Functions
 #### =========
-
-
+```javascript
     function addNums(num1 = 1, num2 = 1) {
         return (num1+num2);
     }
@@ -409,8 +418,9 @@ console.log(todos);
         return (num1+num2);
     }
 
-    same as 
+    // same as 
 
     const addNums = (num1 = 1, num2 = 1) => (num1+num2);
 
     todos.forEach((todo) => console.log(todo);
+```

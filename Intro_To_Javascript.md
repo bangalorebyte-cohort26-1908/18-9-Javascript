@@ -1,7 +1,7 @@
 # Javascript Crash Tutorial Highlights
 
 
-### Javascript is a
+**Javascript is a**
 
 * Highlevel, interpreted programming language
 * Conforms ECMAScript specification
@@ -9,20 +9,20 @@
 * Runs on client/browser as well as on server (Node.js)
 
 
-###### Highlevel - 
+**Highlevel** 
 Unlike C / C++ which are low level languages which depend on/interact with the operating system, 
 Javascript has a lot of abstraction. We don't have to deal with any memory management etc...
 
-###### Interpreted - 
+**Interpreted** 
 Javascript can be run directly without having to compile using a compiler unlike Java which uses a compiler to compile its code before it could be run. Javascript is a scripting language and it is interpreted.
 
-###### ECMAScript -  
-It was created to standardize JavaScript, so as to foster multiple independent implementations.
+**ECMAScript** 
+It was created to standardize JavaScript, so as to foster multiple independent implementations. Current standard is ES6 (ECMAScript 6 -2015)
 
-###### Multi-paradigm - 
+**Multi-paradigm** 
 Meaning, Javascript can be written in many ways.. example: Object-oriented/function codes and not many strict rules to follow while writing a Javascript code like having to follow a certain way.
 
-###### client/browser -
+**Mainly used in client/browser**
 Javascript is a frontend programming language. Mostly used for interactive aspects like form validations, showing alerts to user...etc
 
 
@@ -33,17 +33,17 @@ Javascript is a frontend programming language. Mostly used for interactive aspec
 * Build interactive interfaces
 * Used in building very fast server-side/full-stack application
 * Used in Mobile Applications (React Native/NativeScript/Ionic)
-* USed in Desktop Application Development (Electron JS)
+* Used in Desktop Application Development (Electron JS)
 
 
 
-### Important Topics to learn Javascript ::
+### Important Topics to learn Javascript
 
-* Variables & Data types
-* Arrays
-* Object Literals
-* Methods for Strings, Arrays, Objects, etc
-* Loops
+* [] Variables & Data types
+* [] Arrays
+* [] Object Literals
+* [] Methods for Strings, Arrays, Objects, etc
+* [] Loops
 * Conditionals
 * Functions
 * OOP (Prototypes & Classes)
@@ -65,11 +65,11 @@ but most recomended/industry standards would be to have a seperate .js file and 
 
 
 * DEBUG/Logging :
-
-    * console.log("")
-    * console.error("")
-    * console.warning("")
-
+```javascript
+console.log("")
+console.error("")
+console.warning("")
+```
     are some of the functions that can be used for debug purposes.
 
 
@@ -128,6 +128,10 @@ console.log(hello2)
 
 Example ::
 ----------
+* How to add js script to your HTML page ?
+
+
+
 <script type="text/javascript">
 <!--
 

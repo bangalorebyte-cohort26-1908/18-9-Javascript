@@ -39,11 +39,11 @@ Javascript is a frontend programming language. Mostly used for interactive aspec
 
 ### Important Topics to learn Javascript
 
-* [] Variables & Data types
-* [] Arrays
-* [] Object Literals
-* [] Methods for Strings, Arrays, Objects, etc
-* [] Loops
+* [ ] Variables & Data types
+* [ ] Arrays
+* [ ] Object Literals
+* [ ] Methods for Strings, Arrays, Objects, etc
+* [ ] Loops
 * Conditionals
 * Functions
 * OOP (Prototypes & Classes)

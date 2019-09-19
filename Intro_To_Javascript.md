@@ -108,7 +108,7 @@ Using 'const', you cannot re-assign value.
 Hence it can be decided when to use a 'const' and when not to. 
 'const' have to be assigned a value while declaring. I cannot be left un-assigned. 
 
-```
+```javascript
 console.log("Hello World from Javscript");
 
 var hello;

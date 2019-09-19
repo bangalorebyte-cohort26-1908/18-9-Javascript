@@ -423,4 +423,115 @@ console.log(todos);
     const addNums = (num1 = 1, num2 = 1) => (num1+num2);
 
     todos.forEach((todo) => console.log(todo);
+<<<<<<< HEAD
+=======
+
+
+#### Objects (OOP - Prototypes & Classes)
+#### ====================================
+
+* By convention, **Constructor function name** should start with a capital letter ('Person' - as in the example below)
+
+```javascript
+
+//Constructor function
+function Person(firstname, lastname, dob) {
+    this.firstname = firstname;
+    this.lastname = lastname;
+    this.dob = dob;
+}
+
+//Instantiate object
+const person1 = new Person('MK', 'Gandhi', Oct-02-1869)
+const person2 = new Person('Narendra', 'Modi', Sep-17-1950)
+const person3 = new Person('Amit', 'Shah', Oct-24-1964)
+
+console.log(person1); // Output :: Person {firstname:'MK', lastname:'Gandhi', dob:Oct-02-1869}
+console.log(person2.firstname); // Output :: Narendra
+
+
+//Converting to work on a Date object and creating internal functions
+function Person(firstname, lastname, dob) {
+    this.firstname = firstname;
+    this.lastname = lastname;
+    this.dob = new Date(dob);
+
+    this.getBirthYear = function() {
+        return this.dob.getFullYear();
+    }
+
+    this.getFullName = function() {
+        return `${this.firstname} ${this.lastname}`;
+    }
+
+}
+
+
+//Creating Prototypes
+function Person(firstname, lastname, dob) {
+    this.firstname = firstname;
+    this.lastname = lastname;
+    this.dob = new Date(dob);
+}
+
+Person.prototype.getBirthYear = function() {
+        return this.dob.getFullYear();
+    }
+
+Person.prototype.getFullName = function() {
+        return `${this.firstname} ${this.lastname}`;
+    }
+```
+
+This is why we use Classes as it is a prettier way / more organized way to store and deal with things.
+
+```javascript
+//The Class 
+class Person {
+    constructor(firstname, lastname, dob) {
+        this.firstname = firstname;
+        this.lastname = lastname;
+        this.dob = new Date(dob);
+    }
+
+    getBirthYear() {
+        return this.dob.getFullYear();
+    }
+
+    getFullName() {
+        return `${this.firstname} ${this.lastname}`;
+    }
+}
+```
+
+
+#### DOM (Document Object Model)
+#### ===========================
+
+Consider this file for reference 
+
+[HTML File](LearnJS_DOM.html)
+
+**Types of Selectors**
+
+* Single Element Selectors
+* Multiple Element Selectors
+
+
+**Single Element Selectors**
+
+Examples : 
+```javascript
+document.getElementById('my_form')
+document.querySelector('h1')
+```
+
+**Single Element Selectors**
+
+Examples : 
+```javascript
+document.getElementsByClassName('item')
+document.querySelectorAll('.item')
+document.getElementsByTagName('li')
+>>>>>>> af71cb6d88ad5ee76720947cddd51a126378d2d7
 ```

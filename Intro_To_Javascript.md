@@ -423,8 +423,6 @@ console.log(todos);
     const addNums = (num1 = 1, num2 = 1) => (num1+num2);
 
     todos.forEach((todo) => console.log(todo);
-<<<<<<< HEAD
-=======
 
 
 #### Objects (OOP - Prototypes & Classes)
@@ -533,5 +531,4 @@ Examples :
 document.getElementsByClassName('item')
 document.querySelectorAll('.item')
 document.getElementsByTagName('li')
->>>>>>> af71cb6d88ad5ee76720947cddd51a126378d2d7
 ```
